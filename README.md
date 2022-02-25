@@ -12,64 +12,64 @@
   </p>
 </p>
 
-## :memo: Documentation
+## :notebook_with_decorative_cover:Documentation
 
-Clicking [this link](#About-the-Project)
-Clicking [Technologies](#technologies)
-Clicking [Getting Started](#getting-started)
-Clicking [Clone the Repository](#clone-the-repository)
-Clicking [Install Packages](#install-packages)
-Clicking [Configure Yelp API](#configure-yelp-api)
-Clicking [Run API locally](#run-api-locally)
-Clicking [Usage Example](#usage-example)
-Clicking [Contact](#contact)
+- [About the Project](#:memo:About-the-Project)
+- [Technologies](#:wrench:Technologies)
+- [Getting Started](#:memo:Getting-Started)
+  - [Clone the Repository](#:pushpin:Clone-the-Repository)
+  - [Install Packages](#:pushpin:Install-Packages)
+  - [Configure Yelp API](#:pushpin:Configure-Yelp-API)
+  - [Run API locally](#:pushpin:Run-API-locally)
+- [Usage Example](#:art:Usage-Example)
+- [Contact](#:princess:Contact)
 
 <!-- ABOUT THE PROJECT -->
 
-## :notebook_with_decorative_cover: About the Project
+## :memo:About the Project
 
 The Ravenous Project is a front-end application build with JavaScript and React, all with the goal of building a Yelp-like clone using the Yelp API to search for restaurants in your area.
 
-## :wrench: Technologies
+## :wrench:Technologies
 
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 <!-- GETTING STARTED -->
 
-## :page_facing_up: Getting Started
+## :memo:Getting Started
 
-### 1. Clone the Repository
+### :pushpin:Clone the Repository
 
 ```sh
-   git clone https://github.com/ANNEBORTOLI/ravenous
+   git clone https://github.com/ANNEBORTOLI/project-ravenous
 ```
 
-### 2. Install Packages
+### :pushpin:Install Packages
 
 ```sh
     npm install
 ```
 
-### 3. Configure Yelp API
+### :pushpin:Configure Yelp API
 
-- 3.1 Create an Yelp account at https://www.yelp.com/;
+- Create an Yelp account at https://www.yelp.com/;
 
-- 3.2 Once you login, create a new app using the menu to the left;
+- Once you login, create a new app using the menu to the left;
 
-- 3.3 Fill out the required fields for the app, and agree to the terms and conditions and create the app. You should see an “API Key” presented to you;
+- Fill out the required fields for the app, and agree to the terms and conditions and create the app. You should see an “API Key” presented to you;
 
-- 3.4 Open **Yelp.js** that is inside of the **util** directory and store the string of your API Key from the Yelp API;
+- Open **Yelp.js** that is inside of the **util** directory and store the string of your API Key from the Yelp API;
 
-- 3.5 CORS Restrictions:
+- CORS Restrictions:
 
-  Due to CORS restrictions your fetch() may not function correctly. To solve this problem just bypass this restriction with CORS Anywhere API.
+Due to CORS restrictions your fetch() may not function correctly. To solve this problem just bypass this restriction with CORS Anywhere API.
 
-  - Visit **https://cors-anywhere.herokuapp.com/corsdem_** and _“Request temporary access to the demo server”_;
+- Visit **https://cors-anywhere.herokuapp.com/corsdem** and _“Request temporary access to the demo server”_;
 
-  - Go to **Yelp.js** file to see the CORS Anywhere URL prepended to the Ravenous URL path;
+- Go to **Yelp.js** file to see the CORS Anywhere URL prepended to the Ravenous URL path;
 
-### 4. Run API locally
+### :pushpin:Run API locally
 
 ```sh
     npm start
@@ -77,7 +77,7 @@ The Ravenous Project is a front-end application build with JavaScript and React,
 
 <!-- USAGE EXAMPLES -->
 
-## :technologist: Usage Example
+## :art:Usage Example
 
 - A user may decide to search with a different sorting option: _"Best Match", “Highest Rated”, or “Most Reviewed”_. If not, the default search will be by best matches;
 
@@ -87,11 +87,11 @@ The Ravenous Project is a front-end application build with JavaScript and React,
 
 - The business list will be displayed;
 
-![Watch the video](/public/businessesList.png)
+![Businesses List](/public/businessesList.png)
 
 <!-- CONTACT -->
 
-## :princess: Contacts
+## :princess:Contact
 
 <a target="_blank" href="https://github.com/ANNEBORTOLI">
   <img align="left" alt="LinkdeIN" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
