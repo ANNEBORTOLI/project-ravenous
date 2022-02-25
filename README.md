@@ -12,20 +12,32 @@
   </p>
 </p>
 
+## :memo: Documentation
+
+Clicking [this link](#About-the-Project)
+Clicking [Technologies](#technologies)
+Clicking [Getting Started](#getting-started)
+Clicking [Clone the Repository](#clone-the-repository)
+Clicking [Install Packages](#install-packages)
+Clicking [Configure Yelp API](#configure-yelp-api)
+Clicking [Run API locally](#run-api-locally)
+Clicking [Usage Example](#usage-example)
+Clicking [Contact](#contact)
+
 <!-- ABOUT THE PROJECT -->
 
 ## :notebook_with_decorative_cover: About the Project
 
 The Ravenous Project is a front-end application build with JavaScript and React, all with the goal of building a Yelp-like clone using the Yelp API to search for restaurants in your area.
 
-### :wrench: Technologies Used
+## :wrench: Technologies
 
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 <!-- GETTING STARTED -->
 
-## :page_facing_up: General Instructions
+## :page_facing_up: Getting Started
 
 ### 1. Clone the Repository
 
@@ -39,7 +51,7 @@ The Ravenous Project is a front-end application build with JavaScript and React,
     npm install
 ```
 
-### 3. Configure YELP API
+### 3. Configure Yelp API
 
 - 3.1 Create an Yelp account at https://www.yelp.com/;
 
