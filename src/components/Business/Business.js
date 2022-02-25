@@ -11,7 +11,7 @@ class Business extends React.Component {
             alt={this.props.business.name}
           />
         </div>
-        <h2>MarginOtto Pizzeria</h2>
+        <h2>{this.props.business.name}</h2>
         <div className="Business-information">
           <div className="Business-address">
             <p>{this.props.business.address}</p>
